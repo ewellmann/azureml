@@ -18,18 +18,18 @@ The data is related with direct marketing campaigns (phone calls) of a Portugues
 The best performing Model (ACC: 0.91760243) was within the HyperDrive Pipeline with the following parameters C:1, max_iter: 500
 
 ## Scikit-learn Pipeline
-**Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
+Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.
 - reading and cleaning data
 - set up parameterized LogReg Model
 - set up sampler method (RandomParameterSampling)
 - set up early termination policy (BanditPolicy)
 - run models
 - save best model
-
-**What are the benefits of the parameter sampler you chose?**
+- 
+What are the benefits of the parameter sampler you chose?
 In random sampling, hyperparameter values are randomly selected from the defined search space. Random sampling allows the search space to include both discrete and continuous hyperparameters. Which results an a increased run time of the pipeline.
 
-**What are the benefits of the early stopping policy you chose?**
+What are the benefits of the early stopping policy you chose?
 Bandit is an early termination policy based on slack factor/slack amount and evaluation interval. The policy early terminates any runs where the primary metric is not within the specified slack factor/slack amount with respect to the best performing training run.
 
 ## AutoML
