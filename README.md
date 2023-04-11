@@ -43,4 +43,3 @@ In order to optimize the models, a more sophisticated hyperparamter tuning and s
 
 ## Proof of cluster clean up
 delted by code
-**Image of cluster marked for deletion**
